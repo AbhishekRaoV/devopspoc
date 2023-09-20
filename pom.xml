@@ -5,7 +5,15 @@
         <groupId>com.mt</groupId>
         <artifactId>maven-web-application</artifactId>
         <packaging>war</packaging>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0</version>
+
+        <properties>
+                <maven.compiler.source>1.8</maven.compiler.source>
+                <maven.compiler.target>1.8</maven.compiler.target>
+                <sonar.login>admin</sonar.login>
+                <sonar.password>Abhi@20009</sonar.password>
+                <sonar.host.url>http://13.232.74.205:9001</sonar.host.url>
+        </properties>
 
         <name>maven-web-application</name>
 
@@ -15,6 +23,13 @@
                 <name>Mithun Technologies</name>
                 <url>http://mithuntechnologies.com/</url>
         </organization>
+
+        <repositories>
+                <repository>
+                        <id>maven-web-application</id>
+                        <url>http://13.232.74.205:8082</url>
+                </repository>
+        </repositories>
 
         <properties>
                 <jdk.version>1.8</jdk.version>
@@ -93,19 +108,16 @@
         </dependencies>
 
         <distributionManagement>
-
             <repository>
-              <id>nexus</id>
-              <name>Mithun Technologies Releases Nexus Repository</name>
-              <url>http://172.31.45.41:9980/mithuntechnologies/repository/facebook-releases/</url>
+                <id>central</id>
+                <name>2146c5e5efea-releases</name>
+                <url>http://13.232.74.205:8081/artifactory/maven-web-application</url>
             </repository>
-            
             <snapshotRepository>
-              <id>nexus</id>
-              <name>Mithun Technologies Snapshot Nexus Repository </name>
-              <url>http://172.31.45.41:9980/mithuntechnologies/repository/facebook-snapshot/</url>
+                <id>snapshots</id>
+                <name>2146c5e5efea-snapshots</name>
+                <url>http://13.232.74.205:8081/artifactory/maven-web-application</url>
             </snapshotRepository>
-            
         </distributionManagement>
 
         <build>
