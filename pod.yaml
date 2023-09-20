@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: devopspoc
+  labels:
+    app: devopspoc
+spec:
+  containers:
+    - name: ar
+      image: abhishekraov/devopspoc:final
+      ports:
+        - containerPort: 8081  # Port the container listens on
