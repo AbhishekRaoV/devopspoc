@@ -20,7 +20,7 @@
     <repositories>
         <repository>
             <id>maven-web-application</id>
-            <url>http://13.232.74.205:8082</url>
+            <url>https://devops200.jfrog.io</url>
         </repository>
     </repositories>
 
@@ -33,7 +33,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <sonar.login>admin</sonar.login>
         <sonar.password>Ar@20009</sonar.password>
-        <sonar.host.url>http://13.232.74.205:9001</sonar.host.url>  
+        <sonar.host.url>http://10.63.32.211:9001/</sonar.host.url>  
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -103,17 +103,17 @@
     </dependencies>
 
     <distributionManagement>
-        <repository>
-            <id>central</id>
-            <name>2146c5e5efea-releases</name>
-            <url>http://13.232.74.205:8082/artifactory/maven-web-application</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>2146c5e5efea-snapshots</name>
-            <url>http://13.232.74.205:8082/artifactory/maven-web-application</url>
-        </snapshotRepository>
-    </distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0jkcrczzixvj-artifactory-primary-0-releases</name>
+        <url>https://devops200.jfrog.io/artifactory/maven-web-application</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0jkcrczzixvj-artifactory-primary-0-snapshots</name>
+        <url>https://devops200.jfrog.io/artifactory/maven-web-application</url>
+    </snapshotRepository>
+</distributionManagement>
 
     <build>
         <finalName>maven-web-application</finalName>
