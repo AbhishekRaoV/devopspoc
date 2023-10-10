@@ -2,7 +2,7 @@ name: Simple GitHub Actions Example
 
 on:
   commit:
-    branches: [ master,development ]
+    branches: [ master]
   pull_request:
     branches: [ master,development ]
 
