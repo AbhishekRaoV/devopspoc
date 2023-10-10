@@ -1,0 +1,18 @@
+name: Simple GitHub Actions Example
+
+on:
+  commit:
+    branches: [ master,development ]
+  pull_request:
+    branches: [ master,development ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Hello GitHub Actions
+        run: echo "Hello, GitHub Actions!"
