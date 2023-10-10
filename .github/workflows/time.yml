@@ -1,0 +1,10 @@
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Calculate Custom Timestamp
+        id: timestamp
+        run: echo "::set-output name=custom_timestamp::$(date -d '2023-09-10T23:59:59Z' +%s)"
+      
+      - name: Print Custom Timestamp
+        run: echo "Custom timestamp: ${{ steps.timestamp.outputs.custom_timestamp }}"
