@@ -1,3 +1,11 @@
+name: Java CI with Maven
+
+on:
+  commit:
+    branches: [ master ]
+  pull_request:
+    branches: [ master,develop ]
+
 jobs:
   build:
     runs-on: ubuntu-latest
