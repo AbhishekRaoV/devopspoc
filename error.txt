@@ -1,11 +1,1 @@
-[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:3.1.1:java (default-cli) on project maven-web-application: The parameters 'mainClass' for goal org.codehaus.mojo:exec-maven-plugin:3.1.1:java are missing or invalid ->
-[INFO] User cache: /var/lib/jenkins/.sonar/cache
-[ERROR] SonarQube server [http://44.204.225.225/:9001] can not be reached
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time:  34.678 s
-[INFO] Finished at: 2023-12-14T10:29:11Z
-[INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.sonarsource.scanner.maven:sonar-maven-plugin:3.10.0.2594:sonar (default-cli) on project maven-web-application: Unable to execute SonarScanner analysis: Fail to get bootstrap index from server: connect timed out -> [Help 1]
-[ERROR]
+Failed to execute goal org.sonarsource.scanner.maven:sonar-maven-plugin:3.10.0.2594:sonar (default-cli) on project maven-web-application: Unable to execute SonarScanner analysis: Fail to get bootstrap index from server: connect timed out -> [Help 1]
