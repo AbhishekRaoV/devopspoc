@@ -32,8 +32,8 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <sonar.login>admin</sonar.login>
-        <sonar.password>Ar@20009</sonar.password>
-        <sonar.host.url>http://10.63.32.211:9001/</sonar.host.url>  
+        <sonar.password>123</sonar.password>
+	<sonar.host.url>http://35.175.111.155:9001/</sonar.host.url>  
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
