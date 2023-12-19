@@ -1,1 +1,3 @@
-Failed to execute goal org.sonarsource.scanner.maven:sonar-maven-plugin:3.10.0.2594:sonar (default-cli) on project maven-web-application: Unable to execute SonarScanner analysis: Fail to get bootstrap index from server: connect timed out -> [Help 1]
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:testCompile (default-testCompile) on project maven-web-application: Compilation failure: Compilation failure:
+[ERROR] /var/lib/jenkins/workspace/AI/src/test/java/EmployeeServiceTest.java:[1,17] package org.junit does not exist
+[ERROR]
