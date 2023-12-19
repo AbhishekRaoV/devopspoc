@@ -1,3 +1,1 @@
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:testCompile (default-testCompile) on project maven-web-application: Compilation failure: Compilation failure:
-[ERROR] /var/lib/jenkins/workspace/AI/src/test/java/EmployeeServiceTest.java:[1,17] package org.junit does not exist
-[ERROR]
+[ERROR] /var/lib/jenkins/workspace/AI/src/test/java/EmployeeServiceTest.java:[11,40] uploadImage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession) is not public in com.mt.services.EmployeeService; cannot be accessed from outside package
