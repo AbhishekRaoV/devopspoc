@@ -1,1 +1,8 @@
-[ERROR] /var/lib/jenkins/workspace/AI/src/test/java/EmployeeServiceTest.java:[11,40] uploadImage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession) is not public in com.mt.services.EmployeeService; cannot be accessed from outside package
+[ERROR] Plugin com.atlassian.maven.plugins:maven-clover2-plugin:4.4.1 or one of its dependencies could not be resolved: Failure to find com.atlassian.maven.plugins:maven-clover2-plugin:jar:4.4.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced ->
+OBOAOAOA
+
+
+
+
+
+
