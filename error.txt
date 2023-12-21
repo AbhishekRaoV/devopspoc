@@ -1,8 +1,14 @@
-[ERROR] Plugin com.atlassian.maven.plugins:maven-clover2-plugin:4.4.1 or one of its dependencies could not be resolved: Failure to find com.atlassian.maven.plugins:maven-clover2-plugin:jar:4.4.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced ->
-OBOAOAOA
-
-
-
-
-
-
+[INFO] There are 11 errors reported by Checkstyle 8.29 with sun_checks.xml ruleset.
+[ERROR] src/main/java/com/mt/services/EmployeeService.java:[1] (javadoc) JavadocPackage: Missing package-info.java file.
+[ERROR] src/main/java/com/mt/services/EmployeeService.java:[18] (regexp) RegexpSingleline: Line has trailing spaces.
+[ERROR] src/main/java/com/mt/services/EmployeeService.java:[18,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/com/mt/services/EmployeeService.java:[19] (sizes) LineLength: Line is longer than 80 characters (found 82).
+[ERROR] src/main/java/com/mt/services/EmployeeService.java:[19,9] (design) DesignForExtension: Class 'EmployeeService' looks like designed for extension (can be subclassed), but the method 'uploadImage' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'EmployeeService' final or making the method 'uploadImage' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/com/mt/services/EmployeeService.java:[19,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/com/mt/services/EmployeeService.java:[21] (sizes) LineLength: Line is longer than 80 characters (found 116).
+[ERROR] src/main/java/com/mt/services/EmployeeService.java:[21,35] (misc) FinalParameters: Parameter request should be final.
+[ERROR] src/main/java/com/mt/services/EmployeeService.java:[21,63] (misc) FinalParameters: Parameter response should be final.
+[ERROR] src/main/java/com/mt/services/EmployeeService.java:[21,93] (misc) FinalParameters: Parameter httpSession should be final.
+[ERROR] src/main/java/com/mt/services/EmployeeService.java:[28] (sizes) LineLength: Line is longer than 80 characters (found 96).
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
